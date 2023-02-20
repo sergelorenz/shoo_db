@@ -40,7 +40,7 @@ class Cart
             $query = "INSERT INTO tbl_cart(sId, productId, productName, price, quantity, image) VALUES('$sId', '$proId', '$productName', '$price', '$quantity', '$image')";
             $inserted_row = $this->db->insert($query);
             if ($inserted_row) {
-                header("Location:Cart.php");
+                header("Location:cart.php");
             } else {
                 header("Location:404.php");
             }

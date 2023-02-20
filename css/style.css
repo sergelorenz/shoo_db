@@ -469,9 +469,11 @@ p.note{
 	float:left;
 	margin: 2% 0 0% 3.6%;
 }
-.listview_1_of_2:first-child { margin-left: 0; } 
+.listview_1_of_2:first-child { 
+	/*margin-left: 0;*/
+} 
 .images_1_of_2 {
-	width: 46.2%;
+	width: 45.2%;
 	padding:1.5%; 
 }
 .listimg_2_of_1 {
